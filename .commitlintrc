@@ -1,0 +1,22 @@
+{
+	"extends": [
+		"@commitlint/config-conventional"
+	],
+	"scope-case": [
+		1,
+		"always",
+		"pascal-case"
+	],
+	"type-enum": [
+		"chore",
+		"feat",
+		"fix",
+		"refactor",
+		"doc",
+		"build",
+		"ci",
+		"revert",
+		"style",
+		"test"
+	]
+}
